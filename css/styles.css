@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    background-color: rgb(149, 161, 162);
+}
+
+nav {
+    background-color: gray;
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+}
+
+nav a {
+    color: cyan;
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
+    font-size: large;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+.aboutme a {
+    color: cyan;
+    text-decoration: none;
+}
+
+.namebanner {
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Teko', sans-serif;
+    font-size: xx-large;
+    color: rgb(163, 31, 51);
+}
+
+.aboutme a:hover {
+    background-color: bisque;
+}
+
+.aboutme {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: gray;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer a {
+    color: cyan;
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
+    font-size: large;
+}
+
+footer a:hover {
+    background-color: white;
+}
+
+hr {
+    border-top: 10px dotted cyan;
+    border-bottom: none;
+}
+
+.positionforimages img:first-child {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    max-height: 20%;
+    max-width: 20%;
+}
+
+.positionforimages img:last-child {
+    position: absolute;
+    top: 60px;
+    left: 900px;
+    width: 20%;
+    height: 20%;
+}
+
+.aboutme img {
+    border-radius: 50%;
+    border: 4px solid #000000;
+    border-color: rgb(14, 96, 96);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(169, 198, 198);
+    margin-left: 150px;
+}
+
+.skillscardimg {
+    border-radius: 50%;
+    border: 4px solid #000000;
+    border-color: rgb(14, 96, 96);
+    max-width: 70%;
+    max-height: 70%;
+    margin-top: 10px;
+}
+
+.languagescardimg {
+    border-radius: 50%;
+    border: 4px solid #000000;
+    border-color: rgb(14, 96, 96);
+    max-width: 70%;
+    max-height: 70%;
+    margin-top: 10px;
+}
+
+.experiencecardimg {
+    border-radius: 50%;
+    border: 4px solid #000000;
+    border-color: rgb(14, 96, 96);
+    max-width: 70%;
+    max-height: 70%;
+    margin-top: 10px;
+}
+
+.cardcontent {
+    padding: 15px;
+}
+
+.cardheader {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.language {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.skills {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.experience {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.one-col {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.card-style {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    align-items: center;
+    width: 400px;
+    border: 4px solid #000000;
+    border-color: rgb(14, 96, 96);
+}
+
+.input {
+    background-color: bisque;
+}
+
+textarea {
+    background-color: bisque;
+}
+
+.contact-footer {
+    margin-top: 240px;
+}
